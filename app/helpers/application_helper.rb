@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source_greeting")
     end
   end
+  
+  def copyright_generator
+    MulberryViewTool::Renderer.copyright 'Julia Valentine Arizona Properties', 'All rights reserved'
+  end
 end
