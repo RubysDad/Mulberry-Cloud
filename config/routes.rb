@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
 
   get 'contact', to: 'pages#contact'
+  
+  get 'realtor-news', to: 'pages#realtor_news'
 
   resources :blogs do 
     member do
