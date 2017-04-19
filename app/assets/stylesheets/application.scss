@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 60rem;
   }
 }
 
@@ -208,4 +208,17 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.realtor-news {
+  color: black;
+  margin: 20px;
+}
+
+.realtor-news a {
+  color: green;
+}
+
+.realtor-news > .card {
+  padding: 10px;
 }
