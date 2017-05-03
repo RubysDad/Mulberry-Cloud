@@ -43,10 +43,6 @@ module ApplicationHelper
       url: portfolios_path,
       title: 'Portfolio'
     }, 
-    {
-      url: realtor_news_path,
-      title: 'Realtor-news'
-    }, 
   ]
   end
   
