@@ -26,12 +26,22 @@ a:hover {
 /*
  * Base structure
  */
+ 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Lato', sans-serif;
+}
 
 html,
 body {
   height: 100%;
 }
 body {
+  font-family: 'Simonetta', cursive;
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
@@ -226,7 +236,7 @@ body {
 .app-card-container {
   color: black;
   text-align: left;
-  
+  /*padding: 100px; */
 }
 
 .app-card-container > .card {

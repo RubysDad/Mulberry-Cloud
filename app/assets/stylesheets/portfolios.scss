@@ -2,7 +2,20 @@
 @import "jquery-ui";
 @import "gritter";
 
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Unna', serif;
+  font-weight: normal;
+  color: #333;
+}
+
 body {
+  font-family: 'Arimo', sans-serif;
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
 
