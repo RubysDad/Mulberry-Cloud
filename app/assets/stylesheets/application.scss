@@ -86,7 +86,7 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: bold;
-  color: rgba(255,255,255,.5);
+  color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: #A5E5FF;
   border-bottom-color: #fff;
 }
 
@@ -236,6 +236,8 @@ body {
 .app-card-container {
   color: black;
   text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
   /*padding: 100px; */
 }
 
