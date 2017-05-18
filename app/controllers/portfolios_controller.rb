@@ -70,7 +70,7 @@ class PortfoliosController < ApplicationController
                                        :body, 
                                        :main_image,
                                        :thumb_image,
-                                       technologies_attributes: [:id, :name, :_destroy]
+                                       technologies_attributes: [:id, :name, :destroy]
                                        )
   end
   
