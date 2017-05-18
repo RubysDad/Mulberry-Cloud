@@ -11,6 +11,12 @@ puts "3 Topics created"
     title: "My Blog Post #{blog}",
     body:  "Come down, O Love divine, seek thou this soul of mine, 
       and visit it with thine own ardor glowing; O Comforter, draw near, 
+      within my heart appear, and kindle it, thy holy flame bestowing.
+      Come down, O Love divine, seek thou this soul of mine, 
+      and visit it with thine own ardor glowing; O Comforter, draw near, 
+      within my heart appear, and kindle it, thy holy flame bestowing.
+      Come down, O Love divine, seek thou this soul of mine, 
+      and visit it with thine own ardor glowing; O Comforter, draw near, 
       within my heart appear, and kindle it, thy holy flame bestowing.", 
     topic_id: Topic.last.id
   )
