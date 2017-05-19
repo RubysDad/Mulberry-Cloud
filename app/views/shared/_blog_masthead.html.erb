@@ -3,10 +3,10 @@
     <h1 class="blog-title">Our AZ Life</h1>
     <p class="lead blog-description">Real Estate blog</p>
     <span>
-      <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+      <%= link_to 'Write a New Blog', new_blog_path, class: "btn btn-primary" if logged_in?(:site_admin) %>
     </span>
     <span>
-      <%= link_to "Topics", topics_path, class: "btn btn-primary" %>
+      <%= link_to "Topics", topics_path, class: "btn btn-success" %>
     </span>
   </div>
 </div>
