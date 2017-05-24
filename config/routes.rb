@@ -25,5 +25,6 @@ Rails.application.routes.draw do
   
   root to: 'pages#home'
   
+  get 'stylish_portfolios/index'
 end
 
