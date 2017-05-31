@@ -70,5 +70,7 @@ gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 gem 'frontend-generators', '~> 0.2.0'
+gem 'therubyracer', '~> 0.12.3'
+gem 'execjs', '~> 2.7'
 
 ruby "2.4.0"
