@@ -20,4 +20,5 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
+//= require stylish_portfolio/stylish_portfolio
 
