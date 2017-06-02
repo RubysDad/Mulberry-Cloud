@@ -11,14 +11,19 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require tether
 //= require jquery-ui
+//= require jquery_ujs
+//= require magnific-popup
+//= require jquery.easing
+//= require scrollReveal
 //= require html.sortable
 //= require cocoon
 //= require gritter
 //= require cable
-//= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
 //= require stylish_portfolio/stylish_portfolio
+
+
 

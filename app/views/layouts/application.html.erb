@@ -12,8 +12,9 @@
     <title><%= @page_title %></title>
 
     <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+
     <meta name="keywords" content="<%= @seo_keywords %>" />
     
     <%= favicon_link_tag 'favicons/favicon.ico' %>
@@ -30,5 +31,8 @@
     <%= alerts %>
     
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

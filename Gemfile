@@ -23,8 +23,6 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -72,5 +70,9 @@ gem 'coderay', '~> 1.1', '>= 1.1.1'
 gem 'frontend-generators', '~> 0.2.0'
 gem 'therubyracer', '~> 0.12.3'
 gem 'execjs', '~> 2.7'
+gem 'rails-assets-tether', '~> 1.1', '>= 1.1.1'
+gem 'jquery-easing-rails', '~> 0.0.2'
+gem 'scrollreveal-rails', '~> 0.0.1'
+gem 'magnific-popup-rails', '~> 1.1'
 
 ruby "2.4.0"
