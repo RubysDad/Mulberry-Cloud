@@ -13,8 +13,8 @@
     
     <%= favicon_link_tag 'favicons/favicon.ico' %>
 
-    <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'blogs', media: 'all' %>
+  
   </head>
 
   <body>
@@ -37,5 +37,7 @@
       <%= alerts %>
         
     </div>
+    
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>

@@ -14,16 +14,17 @@
 //= require tether
 //= require jquery-ui
 //= require jquery_ujs
-//= require magnific-popup
 //= require jquery.easing
 //= require scrollReveal
+//= require stylish_portfolio/stylish_portfolio
 //= require html.sortable
 //= require cocoon
 //= require gritter
 //= require cable
 //= require_tree .
 //= require bootstrap-sprockets
-//= require stylish_portfolio/stylish_portfolio
+
+
 
 
 

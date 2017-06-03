@@ -73,6 +73,6 @@ gem 'execjs', '~> 2.7'
 gem 'rails-assets-tether', '~> 1.1', '>= 1.1.1'
 gem 'jquery-easing-rails', '~> 0.0.2'
 gem 'scrollreveal-rails', '~> 0.0.1'
-gem 'magnific-popup-rails', '~> 1.1'
+
 
 ruby "2.4.0"

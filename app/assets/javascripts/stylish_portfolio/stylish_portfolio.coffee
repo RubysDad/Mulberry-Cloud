@@ -10,7 +10,7 @@ $(document).ready ->
     return
   # Scrolls to the selected menu item on the page
   $ ->
-    $('a[href*=#]:not([href=#])').click ->
+    $('a[href*=\\#]:not([href=\\#])').click ->
       if location.pathname.replace(/^\//, '') == @pathname.replace(/^\//, '') or location.hostname == @hostname
         target = $(@hash)
         target = if target.length then target else $('[name=' + @hash.slice(1) + ']')
