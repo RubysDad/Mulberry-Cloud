@@ -28,14 +28,6 @@ module ApplicationHelper
       title: 'Home'
     },
     {
-      url: about_path,
-      title: 'About Us'
-    }, 
-    {
-      url: contact_path,
-      title: 'Contact'
-    },    
-    {
       url: blogs_path,
       title: 'Blog'
     }, 

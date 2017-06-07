@@ -13,7 +13,7 @@
 
     <%= csrf_meta_tags %>
     
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag  'application', media: 'all' %>
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
     
@@ -24,12 +24,14 @@
     <link href="https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans" rel="stylesheet">
     
 <body>
+    
+    <%= alerts %>
 
     <%= yield %>
-            
-    <%= alerts %>
     
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= render "shared/application_footer" %>
+    
+    <%= javascript_include_tag 'application', media: 'all' %>
     
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
