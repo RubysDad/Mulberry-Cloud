@@ -51,7 +51,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.2'
-gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'mulberry_view_tool', git: 'https://github.com/RubysDad/Mulberry_view_tool'
 gem 'petergate', '~> 1.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
@@ -67,12 +66,12 @@ gem 'twitter', '~> 6.1'
 gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
-gem 'frontend-generators', '~> 0.2.0'
 gem 'therubyracer', '~> 0.12.3'
 gem 'execjs', '~> 2.7'
 gem 'rails-assets-tether', '~> 1.1', '>= 1.1.1'
 gem 'jquery-easing-rails', '~> 0.0.2'
 gem 'scrollreveal-rails', '~> 0.0.1'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 
 
 ruby "2.4.0"

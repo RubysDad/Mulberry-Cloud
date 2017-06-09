@@ -1,19 +1,13 @@
 Rails.application.routes.draw do
   resources :topics, only: [:index, :show]
 
-  devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'register' }
+  devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'subscribe' }
   resources :portfolios, except: [:show] do
     put :sort, on: :collection
   end
   get 'scottsdale-items', to: 'portfolios#scottsdale'
   
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
-
-  get 'about', to: 'pages#about'
-
-  get 'contact', to: 'pages#contact'
-  
-  get 'realtor-news', to: 'pages#realtor_news'
 
   resources :blogs do 
     member do
@@ -25,6 +19,5 @@ Rails.application.routes.draw do
   
   root to: 'pages#home'
   
-  get 'stylish_portfolios/index'
 end
 
