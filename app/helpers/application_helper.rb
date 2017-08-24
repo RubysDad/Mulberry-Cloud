@@ -18,7 +18,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    MulberryViewTool::Renderer.copyright 'Julia Valentine Arizona Properties', 'All rights reserved'
+    MulberryViewTool::Renderer.copyright 'Mulberry Cloud', 'All rights reserved'
   end
   
   def nav_items
@@ -29,7 +29,7 @@ module ApplicationHelper
     },
     {
       url: about_path,
-      title: 'About Us'
+      title: 'About Me'
     }, 
     {
       url: contact_path,
@@ -41,7 +41,7 @@ module ApplicationHelper
     }, 
     {
       url: portfolios_path,
-      title: 'Listings'
+      title: 'Portfolio'
     }, 
   ]
   end
@@ -72,7 +72,7 @@ module ApplicationHelper
   end
   
   def alert_generator msg
-    js add_gritter(msg, title: "Julia Valentine Portfolio", sticky: false)
+    js add_gritter(msg, title: "Mulberry Cloud Portfolio", sticky: false)
   end
   
 end
