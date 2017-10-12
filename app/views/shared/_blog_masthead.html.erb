@@ -1,7 +1,12 @@
 <div class="blog-header">
   <div class="container">
-    <h1 class="blog-title">Our AZ Life</h1>
-    <p class="lead blog-description">Real Estate blog</p>
+    <h1 class="blog-title">Mark on Rails</h1>
+    <p class="lead blog-description">My journey as a Ruby developer</p>
+    <span>
+      <%= image_tag "blog-banner.jpg", width: 600, class: "blog-banner" %>
+    </span>
+    <br>
+    <br>
     <span>
       <%= link_to 'Write a New Blog', new_blog_path, class: "btn btn-primary" if logged_in?(:site_admin) %>
     </span>
