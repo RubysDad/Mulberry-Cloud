@@ -29,7 +29,7 @@ module ApplicationHelper
     },
     {
       url: about_path,
-      title: 'About Us'
+      title: 'About Me'
     }, 
     {
       url: contact_path,
